@@ -1,0 +1,54 @@
+img {
+	width: 600px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.body {
+  background-image: url ("pic.jpg");
+  padding: 100px;
+  background-image: repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1{
+  font-family: 'Waiting for the Sunrise', cursive;
+  font-size: 3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+header {
+	background-color: white;
+  float: center;
+}
+header ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header li {
+  float: left;
+}
+header li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+header li a:hover {
+  background-color: #ebebe8;
+  color: black;
+}
