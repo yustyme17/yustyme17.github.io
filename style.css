@@ -1,5 +1,18 @@
 img {
 	width: 600px;
+  margin-bottom: 2em;
+	margin-top: 3em;
+}
+#friends{
+	margin-left: 3em;
+}
+.action{
+	float: right;
+	margin-right: 3em;
+	font-family: 'Waiting for the Sunrise', cursive;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: inline-block;
 }
 .center {
     display: block;
@@ -17,13 +30,30 @@ img {
 
 h1{
   font-family: 'Waiting for the Sunrise', cursive;
-  font-size: 3em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  font-size: 2em;
+  margin-top: 3em;
+  margin-bottom: 0em;
   text-align: center;
 }
+h2{
+	font-family: 'Waiting for the Sunrise', cursive;
+	font-size: 2em;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-align: center;
+
+}
+p{
+	font-family: 'Waiting for the Sunrise', cursive;
+	font-size: 1em;
+	margin-left: 3em;
+	margin-bottom: 3em;
+}
+body{
+  margin: 0;
+}
+
 header {
-	background-color: white;
   float: center;
 }
 header ul {
@@ -35,9 +65,13 @@ header ul {
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: #ebebe8;
+  font-family: 'Life Savers', cursive;
 }
 
 header li {
+  position: relative;
+  left: 960px;
   float: left;
 }
 header li a {
@@ -47,8 +81,74 @@ header li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 header li a:hover {
-  background-color: #ebebe8;
+  background-color: white;
   color: black;
 }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+	margin-top: 0px;
+	margin-left: 13px;
+  flex: 50%;
+  max-width: 23%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 0px;
+  vertical-align: middle;
+  width: 100%;
+}
+.column1{
+	margin-left: 5em;
+	align-items: center;
+	margin-left: 15em;
+	}
+
+.fa {
+  padding: 16px;
+  font-size: 20px;
+  width: 20px;
+  border-radius: 50%;
+	margin-bottom: 30px;
+	display: inline-block;
+	justify-content:center;
+  text-align:center;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.page-footer{
+  display:flex;
+}
+
+.page-footer ul{
+  justify-content:center;
+  text-align:center;
+}
+
+.page-footer ul li{
+  display:inline-block;
+ }
+
+
+/* Create two equal columns that sits next to each other */
